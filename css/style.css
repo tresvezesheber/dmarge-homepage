@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.recent-news {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.news {
+  display: flex;
+  padding: 20px 0;
+}
+
+.news + .news {
+  border-top: 1px solid #000;
+}
+
+.news__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.news__image {
+  flex: 1;
+  min-width: 400px;
+}
+
+.news__topic {
+}
+
+/* .news + .news::before {
+  content: "";
+  display: block;
+  border-top: 1px solid #000;
+} */
