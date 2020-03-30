@@ -31,7 +31,7 @@ img {
 }
 
 .news + .news {
-  border-top: 1px solid #000;
+  border-top: 1px solid #dbdbdb;
 }
 
 .news__description {
@@ -46,6 +46,19 @@ img {
 }
 
 .news__topic {
+  color: #333333;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* border-bottom: 2px solid #6CF2CD; */
+}
+
+.news__title {
+  color: #303039;
+}
+
+.news__author,
+.news__time {
+  color: #999999;
 }
 
 /* .news + .news::before {
